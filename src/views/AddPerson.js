@@ -29,7 +29,6 @@ const AddPerson = () => {
                 })
             }
         }catch(err){
-            console.log(err)
             setMessage({
                 type: 'err',
                 message : err?.response?.data?.message

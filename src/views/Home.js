@@ -47,7 +47,6 @@ const Home = () => {
     const debouncedSearch = useCallback(
         debounce((searchValue) => {
             setSearchParams({ q: searchValue });
-            console.log(searchValue)
         }, 500),
         []
     );
